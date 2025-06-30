@@ -1,3 +1,4 @@
+-- COVID-19 Data Analysis Script
 USE covid_project;
 
 # Create view: valid_countries_cases

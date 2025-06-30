@@ -13,6 +13,13 @@ The project demonstrates advanced SQL techniques including window functions, sub
   - Vaccination vs. mortality classification by country (2021)
   - Peak infection periods by continent using `RANK()`
   - Pre- vs. post-vaccination mortality comparison
+ 
+- `data_exploration.sql`  
+  Explores structure and content of raw tables, including:
+  - Table structure review
+  - Date coverage and record statistics
+  - Location and continent consistency
+  - Negative values and duplicate record checks
 
 ---
 
@@ -40,6 +47,17 @@ The project demonstrates advanced SQL techniques including window functions, sub
 
 ---
 
+## Data Exploration Highlights in `covid_data_exploration.sql`
+
+- Examined table schemas and earliest records for both tables
+- Calculated record counts, date ranges, and coverage completeness
+- Compared `location` values across tables and checked for formatting issues
+- Detected invalid or missing values (e.g., "", "N/A", "-", "_")
+- Flagged negative values in case/death/vaccination fields
+- Identified duplicate records by `location + date` key
+
+---
+
 ## SQL Features Used
 
 - `CREATE VIEW`
@@ -59,5 +77,3 @@ The project demonstrates advanced SQL techniques including window functions, sub
 ## Tools Used
 
 - **Database:** MySQL 
-- **Data Source:** OWID COVID-19  
-- **Platform:** GitHub (for version control and project structure)

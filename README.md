@@ -56,20 +56,6 @@ The project demonstrates advanced SQL techniques including window functions, sub
 
 - [Our World in Data COVID-19 Dataset](https://ourworldindata.org/covid-cases)
 
----
-
-## Coming Soon
-
-The following SQL files will be added to enhance this project:
-
-- `data_exploration.sql`:  
-
-- `data_quality_check.sql`:  
-
-- `data_cleaning.sql`:  
-
----
-
 ## Tools Used
 
 - **Database:** MySQL 

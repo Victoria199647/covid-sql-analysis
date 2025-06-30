@@ -58,7 +58,7 @@ The project demonstrates advanced SQL techniques including window functions, sub
 
 ---
 
-## 🚧 Coming Soon
+## Coming Soon
 
 The following SQL files will be added to enhance this project:
 
